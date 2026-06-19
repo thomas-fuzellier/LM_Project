@@ -1,0 +1,179 @@
+{
+  "identite": {
+    "nom": "FUZELLIER",
+    "prenom": "Thomas",
+    "titre": "Ingénieur Système embarqué",
+    "email": "thomas.fuzellier@outlook.fr",
+    "tel": "+33 (0) 6 10 48 41 37",
+    "mobilite": "France",
+    "permis": "B",
+    "nationalite": "Française",
+    "portfolio": "fuzellier-portfolio-website.vercel.app"
+  },
+
+  "langues": [
+    { "langue": "Anglais", "niveau": "TOEIC 810" },
+    { "langue": "Espagnol", "niveau": "Intermédiaire" }
+  ],
+
+  "formations": [
+    {
+      "diplome": "Diplôme d'Ingénieur généraliste",
+      "option": "Informatique et Systèmes",
+      "etablissement": "ENSEA",
+      "lieu": "Cergy",
+      "periode": "2020-2024"
+    },
+    {
+      "diplome": "Classe préparatoire ATS",
+      "specialite": "Mathématiques et Physique",
+      "etablissement": "Lycée des Remparts",
+      "lieu": "Marseille",
+      "periode": "2019-2020"
+    },
+    {
+      "diplome": "DUT GEII",
+      "specialite": "Génie Électrique et Informatique Industrielle",
+      "etablissement": "Université d'Aix-Marseille",
+      "lieu": "Marseille",
+      "periode": "2017-2019"
+    }
+  ],
+
+  "competences": {
+    "programmation": ["Python", "C", "C++", "Java", "SQL"],
+    "ia_ml": ["LLM", "GPT", "LLaMA", "NLP", "Transformers", "Prompt Engineering", "HuggingFace", "PyTorch"],
+    "embarque": ["STM32", "Arduino", "C/C++ embarqué", "drivers", "microcontrôleurs"],
+    "electronique": ["Conception PCB", "KiCad", "électronique embarquée"],
+    "backend_api": ["API REST", "HTTP", "Token Management", "Rate Limiting"],
+    "frontend": ["HTML", "CSS", "JavaScript"],
+    "outils": ["Git", "Docker", "Linux", "Pandas", "NumPy", "Matlab", "Fusion 360"]
+  },
+
+  "experiences": [
+    {
+      "id": "semi_lift",
+      "poste": "Ingénieur Systèmes Embarqués",
+      "entreprise": "Semi Lift",
+      "lieu": "Toulon, France",
+      "periode": "Janvier 2025 - Janvier 2026",
+      "type": "CDI / Premier poste",
+      "secteur": "industrie_embarque",
+      "tags": ["embarqué", "C/C++", "Python", "capteurs", "PCB", "ascenseurs", "PME"],
+      "points_cles": [
+        "Maintenance et évolution de logiciels embarqués en C/C++ sur microcontrôleurs",
+        "Développement et adaptation de drivers pour capteurs et actionneurs",
+        "Intégration et validation de capteurs sur systèmes d'ascenseur",
+        "Développement d'outils Python pour automatiser tests et analyser données",
+        "Support technique pour diagnostic de pannes",
+        "Gestion et maintenance du site internet de l'entreprise"
+      ],
+      "contexte": "PME spécialisée ascenseurs, transition vers développement interne de cartes électroniques et logiciels embarqués"
+    },
+    {
+      "id": "medal_llm",
+      "poste": "Stagiaire Ingénieur Data / LLM appliqués à la santé",
+      "entreprise": "Laboratoire MEDAL - Université de Madrid",
+      "lieu": "Madrid, Espagne",
+      "periode": "Mai - Décembre 2024",
+      "type": "Stage ingénieur 7 mois",
+      "secteur": "ia_data",
+      "tags": ["LLM", "NLP", "Python", "API REST", "données médicales", "pipeline", "data", "IA"],
+      "points_cles": [
+        "Conception et développement d'un pipeline NLP end-to-end pour analyse de données cliniques via LLM",
+        "Extraction, normalisation et structuration de données médicales non structurées",
+        "Orchestration des appels LLM via API REST",
+        "Benchmark et évaluation de modèles sur données médicales",
+        "Industrialisation du pipeline : modularisation, tests unitaires, documentation technique"
+      ],
+      "contexte": "Projet de recherche universitaire, analyse automatisée de données cliniques par LLM"
+    },
+    {
+      "id": "stratolia",
+      "poste": "Stagiaire Ingénieur Systèmes embarqués & instrumentation",
+      "entreprise": "Stratolia",
+      "lieu": "Palaiseau, France",
+      "periode": "Juin - Août 2023",
+      "type": "Stage 3 mois",
+      "secteur": "embarque_electronique",
+      "tags": ["embarqué", "microcontrôleur", "capteurs", "PCB", "électronique", "ballon stratosphérique"],
+      "points_cles": [
+        "Développement d'un système de contrôle au sol pour une caméra embarquée",
+        "Conception mécanique et prototypage de la nacelle stratosphérique",
+        "Développement embarqué sur microcontrôleur pour l'acquisition de données capteurs",
+        "Conception électronique et réalisation de PCB",
+        "Conception et mise en place d'un banc de test pour simuler les contraintes du vol"
+      ],
+      "contexte": "Startup, observation de la Terre via ballon stratosphérique"
+    }
+  ],
+
+  "projets": [
+    {
+      "id": "jeu_2d",
+      "titre": "Développement d'un jeu 2D en Python",
+      "periode": "2025 - en cours",
+      "tags": ["Python", "Pygame", "architecture logicielle", "moteur de jeu"],
+      "points_cles": [
+        "Jeu 2D inspiré de Pokémon en Python avec Pygame",
+        "Moteur de jeu 2D avec gestion des états et des interactions",
+        "Implémentation des mécaniques de gameplay (déplacements, collisions, combats)",
+        "Architecture logicielle modulaire et extensible",
+        "Gestion des assets graphiques et du rendu temps réel"
+      ]
+    },
+    {
+      "id": "portfolio_terminal",
+      "titre": "Terminal-Inspired Interactive Portfolio Website",
+      "periode": "2026 - en cours",
+      "lieu": "HOME",
+      "tags": ["HTML", "CSS", "JavaScript", "frontend", "UI/UX", "architecture logicielle", "terminal", "Linux", "portfolio"],
+      "points_cles": [
+        "Conception et développement d'une UI terminal interactive reproduisant une expérience shell Unix/Linux dans le navigateur",
+        "Implémentation d'un système de commandes custom (ls, cd, open, pwd, clear) avec filesystem virtuel",
+        "Système de routage dynamique pour navigation par fichiers (projets, formation, expériences)",
+        "Chargement asynchrone de fichiers texte et PDF externes pour une gestion de contenu scalable",
+        "Développement d'un système d'autocomplétion (TAB) et d'historique des commandes",
+        "Coloration syntaxique et output terminal coloré façon Ubuntu",
+        "Architecture modulaire séparant rendu UI, logique des commandes et structure du filesystem"
+      ]
+    },
+    {
+      "id": "rubiks_cube",
+      "titre": "Solveur de Rubik's Cube automatisé",
+      "periode": "2023",
+      "lieu": "ENSEA, Cergy",
+      "tags": ["C", "embarqué", "algorithmique", "moteurs", "Bluetooth", "PCB"],
+      "points_cles": [
+        "Algorithme de résolution du Rubik's Cube en C",
+        "Pilotage de moteurs pas à pas via microcontrôleur",
+        "Conception d'une carte électronique dédiée pour drivers moteurs",
+        "Communication sans fil Bluetooth avec smartphone"
+      ]
+    }
+  ],
+
+  "loisirs": ["Menuiserie (fabrication de mobilier artisanal)", "Jeux de cartes/plateau/vidéo", "Escalade", "Tennis"],
+
+  "meta": {
+    "choix_template": {
+      "regle": "Le template est choisi selon le SECTEUR DE L'ENTREPRISE qui recrute, pas selon le type de poste.",
+      "lettre_template_defense.docx": {
+        "condition": "L'entreprise opère dans la défense, l'armement, l'aérospatial militaire, le naval militaire, ou est un sous-traitant connu de ces secteurs (ex: Dassault Aviation, Thales, Naval Group, MBDA, Safran défense, Nexter, Airbus Defence and Space, DGA...).",
+        "indices_dans_offre": ["défense", "armement", "militaire", "habilitation", "secret défense", "souveraineté nationale", "DGA", "OTAN", "classifié"]
+      },
+      "lettre_template.docx": {
+        "condition": "L'entreprise est civile : industrie classique, startup, tech, santé, recherche académique, etc. — même si le poste est technique (embarqué, électronique, dev).",
+        "indices_dans_offre": ["tout le reste : startups, PME civiles, industrie générale, IA/tech, santé, recherche..."]
+      }
+    },
+    "selection_experiences": {
+      "regle": "Indépendamment du template, sélectionner les expériences/projets dont les 'tags' matchent le mieux les mots-clés de l'offre.",
+      "experiences_par_domaine": {
+        "embarque_electronique": ["semi_lift", "stratolia", "rubiks_cube"],
+        "ia_data_python": ["medal_llm", "jeu_2d", "semi_lift"],
+        "frontend_web": ["portfolio_terminal", "jeu_2d"]
+      }
+    }
+  }
+}

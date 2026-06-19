@@ -1,0 +1,16 @@
+[
+  {
+    "date": "19/06/2026 22:21",
+    "entreprise": "MBDA",
+    "poste": "Dev C ++",
+    "template": "lettre_template_defense.docx",
+    "pdf_path": "C:\\Users\\Utilisateur\\Desktop\\LM_Project\\output\\cover_letter_MBDA_Dev_C_2026-06-19.pdf"
+  },
+  {
+    "date": "19/06/2026 22:20",
+    "entreprise": "Thales",
+    "poste": "Dev C",
+    "template": "lettre_template_defense.docx",
+    "pdf_path": "C:\\Users\\Utilisateur\\Desktop\\LM_Project\\output\\cover_letter_Thales_Dev_C_2026-06-19.pdf"
+  }
+]
