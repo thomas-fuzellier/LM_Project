@@ -30,7 +30,7 @@ def remplacer_placeholder(doc, mapping):
             remplacer_dans_paragraphe(p, mapping)
 
 
-def generer_lettre(template_path, output_path, entreprise, poste):
+def generer_lettre(template_path, output_path, entreprise, poste, contenu_ia=None):
     doc = Document(template_path)
     donnees = charger_profil()
 
@@ -42,8 +42,17 @@ def generer_lettre(template_path, output_path, entreprise, poste):
         "{prenom}": donnees.get("prenom", ""),
         "{email}": donnees.get("email", ""),
         "{telephone}": donnees.get("telephone", ""),
-        "{ville}": donnees.get("ville", ""),
     }
+
+    if contenu_ia:
+        mapping.update({
+            "{accroche}": contenu_ia.get("accroche", ""),
+            "{experience_principale}": contenu_ia.get("experience_principale", ""),
+            "{competences_cles}": contenu_ia.get("competences_cles", ""),
+            "{conclusion}": contenu_ia.get("conclusion", ""),
+            "{paragraphe_experience}": contenu_ia.get("paragraphe_experience", ""),
+            "{paragraphe_projets}": contenu_ia.get("paragraphe_projets", ""),
+        })
 
     remplacer_placeholder(doc, mapping)
     doc.save(output_path)
