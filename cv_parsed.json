@@ -2,6 +2,7 @@
   "identite": {
     "nom": "FUZELLIER",
     "prenom": "Thomas",
+    "genre": "Homme",
     "titre": "Ingénieur Système embarqué",
     "email": "thomas.fuzellier@outlook.fr",
     "tel": "+33 (0) 6 10 48 41 37",

@@ -7,7 +7,8 @@ PROFIL_DEFAUT = {
     "nom": "FUZELLIER",
     "prenom": "Thomas",
     "email": "thomas.fuzellier@outlook.fr",
-    "telephone": "+33 (0) 6 10 48 41 37"
+    "telephone": "+33 (0) 6 10 48 41 37",
+    "api_key": ""  
 }
 
 
